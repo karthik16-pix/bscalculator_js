@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <title>Basic Calculator</title>
+    <style>
+        body {
+           background-color: darkviolet;
+        }
+        h1{
+            text-align: center;
+            color: chartreuse;
+        }
+      
+        h3{
+            color: chartreuse;
+            text-align: right;
+        }
+        .calc {
+            background-color: violet;
+            text-align: center;
+            border-style: hidden;
+            border-radius: 10px;
+        }
+        input {
+            color: black;
+            background-color: chartreuse;
+            height: 30px;
+        
+        }
+        button {
+           background-color: chartreuse;
+           color: black;
+           height: 40px;
+           width: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>BASIC CALCULATOR</h1>
+    <h3><b>KELLI KARTHIK</b> <br> 2403031050114 </h3>
+    <div class="calc">
+        <input type="text" id="show" disabled>
+        <br>
+        <button onclick="clearShow()">clear</button>
+        <button onclick="appendnum('1')">1</button> 
+        <button onclick="appendnum('2')">2</button><br>
+        <button onclick="appendnum('3')">3</button>
+        <button onclick="appendnum('4')">4</button>
+        <button onclick="appendnum('5')">5</button><br>
+        <button onclick="appendnum('6')">6</button>
+        <button onclick="appendnum('7')">7</button>
+        <button onclick="appendnum('8')">8</button><br>
+        <button onclick="appendnum('9')">9</button>
+        <button onclick="appendnum('0')">0</button>
+        <button onclick="appendnum('+')">+</button><br>
+        <button onclick="appendnum('-')">-</button>
+        <button onclick="appendnum('*')">*</button>
+        <button onclick="appendnum('/')">/</button><br>
+        <button onclick="appendnum('%')">%</button>
+        <button onclick="result()">=</button>
+    </div><script src="d.js"></script>
+
+</body>
+</html>
